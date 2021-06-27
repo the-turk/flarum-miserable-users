@@ -7,7 +7,7 @@ Make the browsing experience of problematic users as frustrating as possible.
 
 Running a community forum like the discuss? Kylo got your back, brothers. Show them no mercy. Do some nasty redirections, if you know what I mean 😏
 
-![](https://i.imgur.com/3SR6lQ8.png)
+![](https://i.imgur.com/9Y0nGsB.png)
 
 - [Sample miserable user](https://i.imgur.com/GylCEKY.png)
 - [Control modal](https://i.imgur.com/bHIVVWJ.png)
