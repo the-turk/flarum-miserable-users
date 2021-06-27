@@ -1,0 +1,46 @@
+{
+  "name": "the-turk/flarum-miserable-users",
+  "description": "Make the browsing experience of problematic users as frustrating as possible.",
+  "keywords": [
+    "flarum",
+    "miserable",
+    "user",
+    "management",
+    "ban"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hasan Özbey",
+      "email": "hasanoozbey@gmail.com",
+      "homepage": "https://github.com/the-turk"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/the-turk/flarum-miserable-users/issues",
+    "source": "https://github.com/the-turk/flarum-miserable-users"
+  },
+  "require": {
+    "flarum/core": "^1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TheTurk\\Miserable\\": "src/"
+    }
+  },
+  "replace":{
+    "the-turk/flarum-miserable-users": "*"
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Miserable Users",
+      "category": "feature",
+      "icon": {
+        "name": "far fa-sad-cry",
+        "backgroundColor": "#b72a2a",
+        "color": "#fff"
+      }
+    }
+  }
+}
