@@ -61,6 +61,12 @@ app.initializers.add('the-turk-miserable-users', (app) => {
       label: app.translator.trans('the-turk-miserable-users.admin.settings.log_out_chance_label'),
       help: app.translator.trans('the-turk-miserable-users.admin.settings.log_out_chance_text'),
     })
+    .registerSetting({
+      setting: 'the-turk-miserable-users.shuffle_post_chance',
+      type: 'number',
+      label: app.translator.trans('the-turk-miserable-users.admin.settings.shuffle_post_chance_label'),
+      help: app.translator.trans('the-turk-miserable-users.admin.settings.shuffle_post_chance_text'),
+    })
     .registerPermission(
       {
         icon: 'fas fa-sad-cry',

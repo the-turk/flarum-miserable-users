@@ -38,6 +38,10 @@ class SetFakeFloodings
             if (Post::where('user_id', $actor->id)->where('created_at', '>=', new DateTime(sprintf('-%d seconds', $floodgate)))->exists()) {
                 throw new FloodingException();
             }
-        }
+
+            $shufflePostChance = $this->settings->get('the-turk-miserable-users.shuffle_post_chance', 0);
+            
+            if ($shufflePostChance > mt_rand(0,99)) $event->post->content = str_shuffle($event->post->content);
+        }        
     }
 }

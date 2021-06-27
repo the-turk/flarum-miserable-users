@@ -9,5 +9,6 @@ return Migration::addSettings([
     'the-turk-miserable-users.flood_time_multiplier' => '2',
     'the-turk-miserable-users.redirection_chance' => '15',
     'the-turk-miserable-users.redirection_page_url' => '',
-    'the-turk-miserable-users.log_out_chance' => '2'
+    'the-turk-miserable-users.log_out_chance' => '2',
+    'the-turk-miserable-users.shuffle_post_chance' => '0'
 ]);
