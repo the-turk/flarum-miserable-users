@@ -22,15 +22,12 @@
     "source": "https://github.com/the-turk/flarum-miserable-users"
   },
   "require": {
-    "flarum/core": "^1.0.0"
+    "flarum/core": "^1.0.2"
   },
   "autoload": {
     "psr-4": {
       "TheTurk\\Miserable\\": "src/"
     }
-  },
-  "replace":{
-    "the-turk/flarum-miserable-users": "*"
   },
   "extra": {
     "flarum-extension": {
